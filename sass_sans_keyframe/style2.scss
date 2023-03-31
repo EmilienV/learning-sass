@@ -1,0 +1,41 @@
+body{
+    font-family: 'Alkatra', cursive;
+    
+    }
+    .container{
+    background-image: url(/assets/carnaval-binche.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+    width: 280px;
+    height: 400px;
+    }
+    .container-top{
+        width: 280px;
+        height:  320px;
+    }
+    .container-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 380px; 
+    opacity: 0;
+    transition: opacity 1.5s;
+    }
+    .container-bottom:hover{
+    transition-property: height;
+    transition-duration: 3s;
+    height: 600px;
+    opacity: 1;
+    }
+    h2{
+    font-size: 1.8em;
+    margin: 0;
+    color: brown;
+    }
+    p{
+    font-size: 1.3em;
+    color: goldenrod;
+    }
